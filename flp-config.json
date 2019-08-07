@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "ovly.mm.minhas_compras",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#minhas_compras-Display",
+        "navigationComponentName": "ovly.mm.minhas_compras",
+        "intentSemanticObject": "minhas_compras",
+        "intentAction": "Display",
+        "html5ApplicationName": "minhascompras",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "77ce0938-8d3a-4bdc-8331-94f5f607d87a-1564948125113"
+        ],
+        "contentPackages": [
+            "be7de92d-d946-44b6-84f6-7bd042277bda-1564947870043"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "DynamicTile",
+        "title": "Minhas Compras",
+        "subtitle": "App de Compras",
+        "searchKeywords": "Minhas Compras,App de Compras",
+        "displayIconUrl": "sap-icon://sales-order",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "/sap/fiori/minhascompras/sap/opu/odata/sap/ZT32_69_MYPO_SRV/Headers/$count",
+        "refreshInterval": 10,
+        "displayNumberUnit": "Header"
+    }
+}
